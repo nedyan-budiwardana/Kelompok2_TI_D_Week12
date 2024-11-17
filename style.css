@@ -1,0 +1,73 @@
+body {
+    font-family: Calibri, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+div {
+    border: 1px solid #CACACA;
+    border-radius: 10px;
+    padding: 1em 2em;
+    width: 500px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    text-align: right;
+    display: inline-block;
+    width: 100px;
+    margin: 4px;
+    padding: 8px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    width: 250px;
+    padding: 8px;
+    margin: 4px;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+}
+
+.buttons {
+    justify-content: space-between;
+    border: none;
+}
+
+.buttons input[type="reset"], .buttons input[type="submit"] {
+    width: 47%;
+    padding: 10px 20px;
+    font-size: 12px;            
+    border: none;
+    color: white;
+    display: inline-block;
+}
+
+.buttons input[type="reset"] {
+    background-color: #C00000;
+}
+
+.buttons input[type="submit"] {
+    background-color: green;
+}
+
+.buttons input[type="reset"]:hover {
+    background-color: #900000; 
+    opacity: 0.8; 
+}
+.buttons input[type="submit"]:hover {
+    background-color: darkgreen;
+    opacity: 0.8; 
+}
